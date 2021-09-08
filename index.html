@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stock Market Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="heading">Stock Price Calculator</p>
+      <p class="sub-heading">It helps you calculate profit or loss on stocks you are going through.</p>
+    </div>
+    <div class="container">
+      <input class="initialPrice" type="text" placeholder="Enter initial price" />
+      <input class="quantity" type="number" placeholder="Enter quantity of stocks you bought" />
+      <input class="currentPrice" type="text" placeholder="Enter current price" />
+      <button onclick=checkStatus()>Check Status</button>
+      <p class="outputRes"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
